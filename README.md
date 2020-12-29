@@ -9,4 +9,4 @@ A FiveM Resource to Enable In-Game Integration for Vertex Modification's CAD/MDT
 * Notifications
 
 ***INSTALLATION***
-Download the latest release, put the resource in your server resources folder and insert your community link in the config.php file. Thats it!
+Download the latest release, put the resource in your server resources folder and insert your community link in the config.php file, and add ensure vrtxmod-mdt to your server.cfg file. Thats it!
