@@ -1,0 +1,282 @@
+/* This css centers at the middle of the screen */
+#container {
+width: 17%;
+height: 20%;
+right: 0;
+bottom: 0;
+position: absolute;
+display: none;
+}
+
+.small {
+	font-size: 25px;
+}
+
+/* Cards */
+.card {
+  border-radius: 0.25rem; }
+  .card .card-body {
+    padding: 1.75rem 1.5625rem; }
+    .card .card-body + .card-body {
+      padding-top: 1rem; }
+  .card .card-title {
+    color: #ffffff;
+    margin-bottom: 1.125rem;
+    text-transform: capitalize; }
+  .card .card-subtitle {
+    font-weight: normal;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem; }
+  .card .card-description {
+    color: #bfbfbf;
+    font-weight: 300; }
+  .card.card-outline-success {
+    border: 1px solid #00d25b; }
+  .card.card-outline-primary {
+    border: 1px solid #0090e7; }
+  .card.card-outline-warning {
+    border: 1px solid #ffab00; }
+  .card.card-outline-danger {
+    border: 1px solid #fc424a; }
+  .card.card-rounded {
+    border-radius: 5px; }
+  .card.card-faded {
+    background: #b5b0b2;
+    border-color: #b5b0b2; }
+  .card.card-circle-progress {
+    color: #ffffff;
+    text-align: center; }
+  .card.card-img-holder {
+    position: relative; }
+    .card.card-img-holder .card-img-absolute {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%; }
+  .card.corona-gradient-card {
+    background-image: linear-gradient(to left, #d41459, #911a6c);
+    border-radius: 6px; }
+    .card.corona-gradient-card .gradient-corona-img {
+      height: 85px; }
+      @media (max-width: 576px) {
+        .card.corona-gradient-card .gradient-corona-img {
+          height: auto;
+          min-height: 50px;
+          max-height: 85px; } }
+    @media (max-width: 576px) {
+      .card.corona-gradient-card h4 {
+        font-size: 0.75rem; } }
+
+.card-inverse-primary {
+  background: rgba(0, 144, 231, 0.2);
+  border: 1px solid #0084d5;
+  color: #006db0; }
+
+.card-inverse-secondary {
+  background: rgba(228, 234, 236, 0.2);
+  border: 1px solid #d2d7d9;
+  color: #adb2b3; }
+
+.card-inverse-success {
+  background: rgba(0, 210, 91, 0.2);
+  border: 1px solid #00c154;
+  color: #00a045; }
+
+.card-inverse-info {
+  background: rgba(143, 95, 232, 0.2);
+  border: 1px solid #8457d5;
+  color: #6d48b0; }
+
+.card-inverse-warning {
+  background: rgba(255, 171, 0, 0.2);
+  border: 1px solid #eb9d00;
+  color: #c28200; }
+
+.card-inverse-danger {
+  background: rgba(252, 66, 74, 0.2);
+  border: 1px solid #e83d44;
+  color: #c03238; }
+
+.card-inverse-light {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ebebeb;
+  color: #c2c2c2; }
+
+.card-inverse-dark {
+  background: rgba(13, 13, 13, 0.2);
+  border: 1px solid #0c0c0c;
+  color: #0a0a0a; }
+
+/* Typography */
+body {
+  font-size: 1rem;
+  font-weight: normal;
+  font-weight: initial;
+  line-height: 1.5;
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 500; }
+
+p {
+  font-size: 0.875rem; }
+
+h1, .h1 {
+  font-size: 2.19rem; }
+
+h2, .h2 {
+  font-size: 1.875rem; }
+
+h3, .h3 {
+  font-size: 1.5rem; }
+
+h4, .h4 {
+  font-size: 1.125rem; }
+
+h5, .h5 {
+  font-size: 1rem; }
+
+h6, .h6 {
+  font-size: 0.9375rem; }
+
+p {
+  font-size: 0.875rem; }
+
+.display-1 {
+  font-size: 3.75rem; }
+  @media (max-width: 991px) {
+    .display-1 {
+      font-size: 3rem; } }
+
+.display-2 {
+  font-size: 3.125rem; }
+  @media (max-width: 991px) {
+    .display-2 {
+      font-size: 2.5rem; } }
+
+.display-3 {
+  font-size: 2.5rem; }
+  @media (max-width: 991px) {
+    .display-3 {
+      font-size: 2rem; } }
+
+.display-4 {
+  font-size: 1.875rem; }
+  @media (max-width: 991px) {
+    .display-4 {
+      font-size: 1.5rem; } }
+
+.display-5 {
+  font-size: 1.25rem; }
+  @media (max-width: 991px) {
+    .display-5 {
+      font-size: 1rem; } }
+
+.blockquote {
+  padding: 1.25rem;
+  border: 1px solid #2c2e33; }
+
+address p {
+  margin-bottom: 0; }
+
+.blockquote-primary {
+  border-color: #0090e7; }
+  .blockquote-primary .blockquote-footer {
+    color: #0090e7; }
+
+.blockquote-secondary {
+  border-color: #e4eaec; }
+  .blockquote-secondary .blockquote-footer {
+    color: #e4eaec; }
+
+.blockquote-success {
+  border-color: #00d25b; }
+  .blockquote-success .blockquote-footer {
+    color: #00d25b; }
+
+.blockquote-info {
+  border-color: #8f5fe8; }
+  .blockquote-info .blockquote-footer {
+    color: #8f5fe8; }
+
+.blockquote-warning {
+  border-color: #ffab00; }
+  .blockquote-warning .blockquote-footer {
+    color: #ffab00; }
+
+.blockquote-danger {
+  border-color: #fc424a; }
+  .blockquote-danger .blockquote-footer {
+    color: #fc424a; }
+
+.blockquote-light {
+  border-color: #ffffff; }
+  .blockquote-light .blockquote-footer {
+    color: #ffffff; }
+
+.blockquote-dark {
+  border-color: #0d0d0d; }
+  .blockquote-dark .blockquote-footer {
+    color: #0d0d0d; }
+
+.error-page h1 {
+  font-size: 12rem; }
+  @media (max-width: 991px) {
+    .error-page h1 {
+      font-size: 8rem; } }
+
+.icon-lg {
+  font-size: 3.75rem; }
+
+.icon-md {
+  font-size: 1.875rem; }
+
+.icon-sm {
+  font-size: 1rem; }
+  
+  /* Buttons */
+.btn, .fc button, .ajax-upload-dragdrop .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .swal2-styled, .swal2-modal .swal2-buttonswrapper .swal2-styled.swal2-confirm, .swal2-modal .swal2-buttonswrapper .swal2-styled.swal2-cancel, .wizard > .actions a {
+  font-size: 0.9375rem;
+  line-height: 1;
+  font-weight: normal;
+  /* Buttons with only icons */
+  /* Buttons with icon and text */ }
+  .btn i, .fc button i, .ajax-upload-dragdrop .ajax-file-upload i, .swal2-modal .swal2-buttonswrapper .swal2-styled i, .swal2-modal .swal2-buttonswrapper .swal2-styled.swal2-confirm i, .swal2-modal .swal2-buttonswrapper .swal2-styled.swal2-cancel i, .wizard > .actions a i {
+    margin-right: .3125rem; }
+  .btn.btn-rounded, .fc button.btn-rounded, .ajax-upload-dragdrop .btn-rounded.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-rounded.swal2-styled, .wizard > .actions a.btn-rounded {
+    border-radius: 50px; }
+  .btn.btn-fw, .fc button.btn-fw, .ajax-upload-dragdrop .btn-fw.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-fw.swal2-styled, .wizard > .actions a.btn-fw {
+    min-width: 150px; }
+  .btn.btn-sm, .btn-group-sm > .btn, .fc .btn-group-sm > button, .ajax-upload-dragdrop .btn-group-sm > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group-sm > .swal2-styled, .wizard > .actions .btn-group-sm > a, .fc button, .ajax-upload-dragdrop .btn-sm.ajax-file-upload, .ajax-upload-dragdrop .fc button.ajax-file-upload, .fc .ajax-upload-dragdrop button.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-sm.swal2-styled, .swal2-modal .swal2-buttonswrapper .fc button.swal2-styled, .fc .swal2-modal .swal2-buttonswrapper button.swal2-styled, .wizard > .actions a.btn-sm {
+    font-size: 0.875rem; }
+  .btn.btn-lg, .btn-group-lg > .btn, .fc .btn-group-lg > button, .ajax-upload-dragdrop .btn-group-lg > .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group-lg > .swal2-styled, .wizard > .actions .btn-group-lg > a, .fc button.btn-lg, .ajax-upload-dragdrop .btn-lg.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-lg.swal2-styled, .wizard > .actions a.btn-lg {
+    font-size: 0.875rem; }
+  .btn.btn-xs, .fc button.btn-xs, .fc .editable-container.editable-inline .editableform .control-group .editable-buttons button.editable-submit, .editable-container.editable-inline .editableform .control-group .editable-buttons .fc button.editable-submit, .fc .editable-container.editable-inline .editableform .control-group .editable-buttons button.editable-cancel, .editable-container.editable-inline .editableform .control-group .editable-buttons .fc button.editable-cancel, .ajax-upload-dragdrop .btn-xs.ajax-file-upload, .ajax-upload-dragdrop .editable-container.editable-inline .editableform .control-group .editable-buttons .ajax-file-upload.editable-submit, .editable-container.editable-inline .editableform .control-group .editable-buttons .ajax-upload-dragdrop .ajax-file-upload.editable-submit, .ajax-upload-dragdrop .editable-container.editable-inline .editableform .control-group .editable-buttons .ajax-file-upload.editable-cancel, .editable-container.editable-inline .editableform .control-group .editable-buttons .ajax-upload-dragdrop .ajax-file-upload.editable-cancel, .swal2-modal .swal2-buttonswrapper .btn-xs.swal2-styled, .swal2-modal .swal2-buttonswrapper .editable-container.editable-inline .editableform .control-group .editable-buttons .swal2-styled.editable-submit, .editable-container.editable-inline .editableform .control-group .editable-buttons .swal2-modal .swal2-buttonswrapper .swal2-styled.editable-submit, .swal2-modal .swal2-buttonswrapper .editable-container.editable-inline .editableform .control-group .editable-buttons .swal2-styled.editable-cancel, .editable-container.editable-inline .editableform .control-group .editable-buttons .swal2-modal .swal2-buttonswrapper .swal2-styled.editable-cancel, .editable-container.editable-inline .editableform .control-group .editable-buttons .btn.editable-submit, .editable-container.editable-inline .editableform .control-group .editable-buttons .wizard > .actions a.editable-submit, .wizard > .actions .editable-container.editable-inline .editableform .control-group .editable-buttons a.editable-submit, .editable-container.editable-inline .editableform .control-group .editable-buttons .btn.editable-cancel, .editable-container.editable-inline .editableform .control-group .editable-buttons .wizard > .actions a.editable-cancel, .wizard > .actions .editable-container.editable-inline .editableform .control-group .editable-buttons a.editable-cancel, .wizard > .actions a.btn-xs {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.625rem; }
+  .btn.btn-icon, .fc button.btn-icon, .ajax-upload-dragdrop .btn-icon.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-icon.swal2-styled, .wizard > .actions a.btn-icon {
+    width: 42px;
+    height: 42px;
+    padding: 0; }
+  .btn.btn-icon-text .btn-icon-prepend, .fc button.btn-icon-text .btn-icon-prepend, .ajax-upload-dragdrop .btn-icon-text.ajax-file-upload .btn-icon-prepend, .swal2-modal .swal2-buttonswrapper .btn-icon-text.swal2-styled .btn-icon-prepend, .wizard > .actions a.btn-icon-text .btn-icon-prepend {
+    margin-right: .5rem; }
+  .btn.btn-icon-text .btn-icon-append, .fc button.btn-icon-text .btn-icon-append, .ajax-upload-dragdrop .btn-icon-text.ajax-file-upload .btn-icon-append, .swal2-modal .swal2-buttonswrapper .btn-icon-text.swal2-styled .btn-icon-append, .wizard > .actions a.btn-icon-text .btn-icon-append {
+    margin-left: .5rem; }
+  .btn.btn-social-icon, .fc button.btn-social-icon, .ajax-upload-dragdrop .btn-social-icon.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-social-icon.swal2-styled, .wizard > .actions a.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0; }
+  .btn.get-started-btn, .fc button.get-started-btn, .ajax-upload-dragdrop .get-started-btn.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .get-started-btn.swal2-styled, .wizard > .actions a.get-started-btn {
+    font-size: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: 500;
+    padding: 0.9375rem 1.0625rem; }
+    @media (max-width: 576px) {
+      .btn.get-started-btn, .fc button.get-started-btn, .ajax-upload-dragdrop .get-started-btn.ajax-file-upload, .swal2-modal .swal2-buttonswrapper .get-started-btn.swal2-styled, .wizard > .actions a.get-started-btn {
+        font-size: 0.6rem;
+        padding: 0.4375rem 0.6625rem; } }
+
+.btn-group .btn + .btn, .fc .fc-button-group .btn + .btn, .btn-group .fc button + .btn, .fc .btn-group button + .btn, .fc .fc-button-group button + .btn, .btn-group .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop .btn-group .ajax-file-upload + .btn, .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + .btn, .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + .btn, .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn, .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + .btn, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .btn, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + .btn, .btn-group .wizard > .actions a + .btn, .wizard > .actions .btn-group a + .btn, .fc .fc-button-group .wizard > .actions a + .btn, .wizard > .actions .fc .fc-button-group a + .btn, .btn-group .fc .btn + button, .fc .btn-group .btn + button, .fc .fc-button-group .btn + button, .btn-group .fc button + button, .fc .btn-group button + button, .fc .fc-button-group button + button, .btn-group .ajax-upload-dragdrop .fc .ajax-file-upload + button, .fc .btn-group .ajax-upload-dragdrop .ajax-file-upload + button, .ajax-upload-dragdrop .btn-group .fc .ajax-file-upload + button, .fc .ajax-upload-dragdrop .btn-group .ajax-file-upload + button, .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + button, .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + button, .btn-group .swal2-modal .swal2-buttonswrapper .fc .swal2-styled + button, .fc .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + button, .swal2-modal .swal2-buttonswrapper .btn-group .fc .swal2-styled + button, .fc .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + button, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + button, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + button, .btn-group .wizard > .actions .fc a + button, .fc .btn-group .wizard > .actions a + button, .wizard > .actions .btn-group .fc a + button, .fc .wizard > .actions .btn-group a + button, .fc .fc-button-group .wizard > .actions a + button, .wizard > .actions .fc .fc-button-group a + button, .btn-group .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .btn + .ajax-file-upload, .fc .fc-button-group .ajax-upload-dragdrop .btn + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .btn + .ajax-file-upload, .btn-group .fc .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .fc button + .ajax-file-upload, .fc .btn-group .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .fc .btn-group button + .ajax-file-upload, .fc .fc-button-group .ajax-upload-dragdrop button + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group button + .ajax-file-upload, .btn-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .ajax-file-upload + .ajax-file-upload, .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + .ajax-file-upload, .btn-group .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .btn-group .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + .ajax-file-upload, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .ajax-upload-dragdrop .swal2-styled + .ajax-file-upload, .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + .ajax-file-upload, .btn-group .wizard > .actions .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .btn-group .wizard > .actions a + .ajax-file-upload, .wizard > .actions .btn-group .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .wizard > .actions .btn-group a + .ajax-file-upload, .fc .fc-button-group .wizard > .actions .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .fc .fc-button-group .wizard > .actions a + .ajax-file-upload, .wizard > .actions .fc .fc-button-group .ajax-upload-dragdrop a + .ajax-file-upload, .ajax-upload-dragdrop .wizard > .actions .fc .fc-button-group a + .ajax-file-upload, .btn-group .swal2-modal .swal2-buttonswrapper .btn + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .btn + .swal2-styled, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .btn + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .btn + .swal2-styled, .btn-group .fc .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .fc button + .swal2-styled, .fc .btn-group .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .btn-group button + .swal2-styled, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper button + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group button + .swal2-styled, .btn-group .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .ajax-upload-dragdrop .ajax-file-upload + .swal2-styled, .ajax-upload-dragdrop .btn-group .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .btn-group .ajax-file-upload + .swal2-styled, .fc .fc-button-group .ajax-upload-dragdrop .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + .swal2-styled, .ajax-upload-dragdrop .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .ajax-file-upload + .swal2-styled, .swal2-modal .swal2-buttonswrapper .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + .swal2-styled, .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + .swal2-styled, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + .swal2-styled, .btn-group .wizard > .actions .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .btn-group .wizard > .actions a + .swal2-styled, .wizard > .actions .btn-group .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .wizard > .actions .btn-group a + .swal2-styled, .fc .fc-button-group .wizard > .actions .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .wizard > .actions a + .swal2-styled, .wizard > .actions .fc .fc-button-group .swal2-modal .swal2-buttonswrapper a + .swal2-styled, .swal2-modal .swal2-buttonswrapper .wizard > .actions .fc .fc-button-group a + .swal2-styled, .btn-group .wizard > .actions .btn + a, .wizard > .actions .btn-group .btn + a, .fc .fc-button-group .wizard > .actions .btn + a, .wizard > .actions .fc .fc-button-group .btn + a, .btn-group .fc .wizard > .actions button + a, .wizard > .actions .btn-group .fc button + a, .fc .btn-group .wizard > .actions button + a, .wizard > .actions .fc .btn-group button + a, .fc .fc-button-group .wizard > .actions button + a, .wizard > .actions .fc .fc-button-group button + a, .btn-group .ajax-upload-dragdrop .wizard > .actions .ajax-file-upload + a, .wizard > .actions .btn-group .ajax-upload-dragdrop .ajax-file-upload + a, .ajax-upload-dragdrop .btn-group .wizard > .actions .ajax-file-upload + a, .wizard > .actions .ajax-upload-dragdrop .btn-group .ajax-file-upload + a, .fc .fc-button-group .ajax-upload-dragdrop .wizard > .actions .ajax-file-upload + a, .wizard > .actions .fc .fc-button-group .ajax-upload-dragdrop .ajax-file-upload + a, .ajax-upload-dragdrop .fc .fc-button-group .wizard > .actions .ajax-file-upload + a, .wizard > .actions .ajax-upload-dragdrop .fc .fc-button-group .ajax-file-upload + a, .btn-group .swal2-modal .swal2-buttonswrapper .wizard > .actions .swal2-styled + a, .wizard > .actions .btn-group .swal2-modal .swal2-buttonswrapper .swal2-styled + a, .swal2-modal .swal2-buttonswrapper .btn-group .wizard > .actions .swal2-styled + a, .wizard > .actions .swal2-modal .swal2-buttonswrapper .btn-group .swal2-styled + a, .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .wizard > .actions .swal2-styled + a, .wizard > .actions .fc .fc-button-group .swal2-modal .swal2-buttonswrapper .swal2-styled + a, .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .wizard > .actions .swal2-styled + a, .wizard > .actions .swal2-modal .swal2-buttonswrapper .fc .fc-button-group .swal2-styled + a, .btn-group .wizard > .actions a + a, .wizard > .actions .btn-group a + a, .fc .fc-button-group .wizard > .actions a + a, .wizard > .actions .fc .fc-button-group a + a {
+  border-left: 0; }
