@@ -3,6 +3,7 @@ A FiveM Resource to Enable In-Game Integration for Vertex Modification's CAD/MDT
 
 **Current Features**
 * Bottom Right UI (This displays your call information and unit info)
+![](https://i.imgur.com/aLFSLrP.png)
 
 **Upcoming Features**
 * Live Map
