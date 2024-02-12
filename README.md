@@ -11,8 +11,8 @@ The `mdt-integration` repository provides seamless in-game integration for your 
 - **911 Command:** Streamline emergency response with a dedicated 911 command.
 
 ## Demo Video
-
-![](alpr-demo.mp4)
+<video src="https://git.tommy-johnston.com/tommy/mdt-integration/media/branch/main/alpr-demo.mp4" controls>
+</video>
 
 ## Installation
 
