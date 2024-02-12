@@ -16,7 +16,7 @@ The `mdt-integration` repository provides seamless in-game integration for your 
 
 ## Installation
 
-1. Ensure you have [Tommy's CAD/MDT]((https://git.tommy-johnston.com/tommy/CAD-MDT) setup.
+1. Ensure you have [Tommy's CAD/MDT](https://git.tommy-johnston.com/tommy/CAD-MDT) setup.
 2. Clone the `mdt-integration` repository: `git clone https://git.tommy-johnston.com/tommy/mdt-integration.git`
 3. Install `vrtxmod-mdt` into FiveM resources folder and configure `config.php`.
 
