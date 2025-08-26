@@ -1,24 +1,19 @@
-<script>// CAD/MDT In-Game Integration System (Developed by Vertex Modifications)
-// 			   **                                  **                     
-//             *****                             //**                     
-//             ******/                        ((**//,                     
-//              **///****                  ./////((*                      
-//                //**/////              /////////                        
-//                   /////////         ////////      ,                    
-//             //.     /////////    /////////      //,                    
-//             /////      ////////////////      /////,                    
-//             ////////     ////////////      ///////,                    
-//             //////////      //////      //////////,                    
-//             (////////////     //     ,///////////(,                    
-//             ((/////////////        /////////////((,                    
-//             /*((//   /////////  /////////   //(((,.                    
-//             //*(((     ////////////////     ((((,*.                    
-//             ////**        //////////        (,,***.                    
-//             ////            ((((((            ****.                    
-//             //                                  ,,.
+<script>// CAD/MDT In-Game Integration System (Developed by Tommy Johnston)
 
-//Your community api link, example (https://vertexmods.com/engine/cad/demo/)
+//Your CAD url link with a trailing slash, example (https://cad.example.com/)
 var communityapi = "PASTE YOUR LINK HERE";
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,7 +37,7 @@ var communityapi = "PASTE YOUR LINK HERE";
 		    let data = event.data;
 		    if (data.action == 'sendSteam') {
 		    var steam = data.steam;
-			
+
 		    if (steam !== false) {
 		      var callsign = 'NA';
 		      var unitname = 'NA';
@@ -54,8 +49,8 @@ var communityapi = "PASTE YOUR LINK HERE";
  		      var calllocation = 'NA';
 			  var calltype = 'NA';
  		      var callerid = 'NA';
-		
-		setInterval(function(){ 
+
+		setInterval(function(){
 		      $.getJSON(communityapi + 'api/nui.php?steam=' + steam, function(query) {
 		        callsign = query.callsign;
 		        unitname = query.unitname;
@@ -84,7 +79,7 @@ var communityapi = "PASTE YOUR LINK HERE";
 				document.getElementById("container").style.display = "none";
 				}
 		      });
-			  
+
 		}, 5000);
 		    }
 		  }
